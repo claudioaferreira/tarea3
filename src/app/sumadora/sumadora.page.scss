@@ -1,0 +1,23 @@
+.resultado-container {
+  margin-top: 25px;
+  padding: 16px;
+  background-color: rgba(var(--ion-color-primary-rgb), 0.1); // Un fondo suave del color primario
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid rgba(var(--ion-color-primary-rgb), 0.2);
+}
+
+.resultado-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ion-color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.resultado-valor {
+  font-size: 2.5rem; // Tamaño grande para el número
+  font-weight: 700;
+  color: var(--ion-color-primary); // Usa el color primario de tu app
+  margin-top: 4px;
+}
