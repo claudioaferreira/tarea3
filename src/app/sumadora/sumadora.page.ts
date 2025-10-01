@@ -34,7 +34,6 @@ export class SumadoraPage implements OnInit {
       this.resultado = null;
     }
 
-
   }
 
 }
